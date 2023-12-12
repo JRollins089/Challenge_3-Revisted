@@ -25,7 +25,7 @@ function generatePassword() {
     var hasUpperCase = confirm('Include upper case?');
     var hasSpecialChars = confirm('Include special characters')
     var hasNumbers = confirm('Include numbers')
-
+  // if they are chosen it adds them to the children array
     if (hasLowerCase) {
       children = children.concat(lowerCaseChars);
 
